@@ -1,1 +1,8 @@
 You log goes in this  file.
+
+Start:1:53 
+End: Wed, 28 Jan 2015 13:42:15 -0800 
+Tasks: added log, qunit, qunit_runner.html, src, and tests
+Start:1:53 
+End: Wed, 28 Jan 2015 13:00:53 -0800 
+Tasks: Initial commit
