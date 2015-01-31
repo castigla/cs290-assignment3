@@ -6,3 +6,19 @@ Tasks: added log, qunit, qunit_runner.html, src, and tests
 Start:1:53 
 End: Wed, 28 Jan 2015 13:00:53 -0800 
 Tasks: Initial commit
+
+Start:12:10  
+End: Thu, 29 Jan 2015 12:11:12 -0800 
+Tasks: updates to src functions and variables js
+Start:12:10  
+End: Wed, 28 Jan 2015 13:59:25 -0800 
+Tasks: added a log to log.txt
+Start:12:10  
+End: Wed, 28 Jan 2015 13:58:46 -0800 
+Tasks: added updated log.txt and qunit_runner.html
+Start:12:10  
+End: Wed, 28 Jan 2015 13:42:15 -0800 
+Tasks: added log, qunit, qunit_runner.html, src, and tests
+Start:12:10  
+End: Wed, 28 Jan 2015 13:00:53 -0800 
+Tasks: Initial commit

@@ -36,14 +36,13 @@ bar = function(doubleArray){
 	var arraylength = doubleArray.length;
 	for(var i = 0; i <= arraylength; i++){
 		doubleArray[i]=doubleArray[i]*2;
-	 
-	 if (isNaN(doubleArray)){
-				return false;
+		
+ 		if (doubleArray[i] !== true){
+ 			return false;	
  		};
+ 		
  		};
- 	if (doubleArray) {
- 	return true;
- 	};
+ 		//return true;
  		
  }
 
@@ -80,7 +79,30 @@ function GitLog(hash, date, message) {
 * format.
 * @return {array.<GitLog>} - return an array GitLog instances
 */
+function parseGit(logArray){
+	//your code here
+	var hash;
+	var gitarray = [];
+	var message;
+	var gitdata= [];
 
-//your code here
+	for (var i = 0; i < logArray.length; i++) {
+		gitdata = logArray[i].split(' ');
+		hash = gitdata[0];
 
+		gitdata.splice(0,1); //or split? try split if splice doesn't work
+		var gitotherdata = gitdata.join(' ');
+		//gitotherdata = gitotherdata.splice("\"");
+		gitotherdata = gitotherdata.split("\"");
+		gitotherdata.pop();
+
+		var date = new Date(gitotherdata[0]);
+		message = gitotherdata[1];
+
+		var newlog = new GitLog(hash, date, message);
+		gitarray.push(newlog);
+
+	};
+		return gitarray;	
+}	
 //end your code
