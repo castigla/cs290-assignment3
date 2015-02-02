@@ -37,20 +37,22 @@ function returnObjectLiteral() {
 * received
 */
 
-//your code here
-function MessageLog(user){
-	
-	var myLog = new MessageLog('BlackHatGuy');
-// myLog.logMessage('foo', 1);
-// myLog.logMessage('bar', 1);
-// myLog.logMessage('baz', 1);
-}
 
-	//this.MessageLog = user;
+function MessageLog(user){
+	//var myLog = new MessageLog('logMessage');
+	//this.myLog = user;
 // var logMessage {
 // 	messageText,
 // 	direction,
 // }
+
+
+}
+
+//your code here
+// var logMessage {
+// 	messageText,
+// 	direction,
 
 //end your code
 
@@ -60,7 +62,9 @@ function MessageLog(user){
 * received.
 */
 //your code here
-
+// lastRecievedMessage(){
+// 	messageText,
+// 	direction,
 //end your code
 
 /**
@@ -70,5 +74,8 @@ function MessageLog(user){
 */
 
 //your code here
-
+var myLog = new MessageLog('BlackHatGuy');
+// myLog.logMessage('foo', 1);
+// myLog.logMessage('bar', 1);
+// myLog.logMessage('baz', 1);
 //end your code
